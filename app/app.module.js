@@ -1,0 +1,1 @@
+var cookingApp = angular.module('cookingApp', ['ngCookies', 'ngRoute', 'ngResource']);

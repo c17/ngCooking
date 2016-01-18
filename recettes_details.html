@@ -35,19 +35,7 @@
 
 <div id="wrapper">
 	<header id="header">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
-					<a href="/" class="logo">
-						<img src="img/logo_header.png" alt="">
-					</a>
-					<div class="desc">
-						<p>Partagez vos meilleures recettes avec<br/>la communauté NgCooking</p>
-						<p><a class="link" href="home.html"><strong>245 recettes</strong> à découvrir !</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
+		<cooking-header></cooking-header>
 	</header>
 	<main id="main">
 		<div class="container">
@@ -312,6 +300,19 @@
 		});
 	});
 </script>
+<script type="text/javascript" src="js/angular-1.5.0-rc.0/angular.js"></script>
+	<script type="text/javascript" src="js/angular-1.5.0-rc.0/angular-route.js"></script>
+	<script type="text/javascript" src="js/angular-1.5.0-rc.0/angular-resource.js"></script>
+	<script type="text/javascript" src="js/angular-1.5.0-rc.0/angular-cookies.js"></script>
+	<script type="text/javascript" src="js/angular-1.5.0-rc.0/angular-mocks.js"></script>
+	<script type="text/javascript" src="node_modules/requirejs/require.js"></script>
+	<script type="text/javascript" src="app/app.module.js"></script>
+	<script type="text/javascript" src="app/app.routes.js"></script>
+	<script type="text/javascript" src="app/cookingResources.js"></script>
+	<script type="text/javascript" src="app/auth/authController.js"></script>
+	<script type="text/javascript" src="app/layout/layoutController.js"></script>
+	<script type="text/javascript" src="/app/layout/directives/header/headerDirective.js"></script>
+	<script type="text/javascript" src="/app/layout/directives/recipes/recipeThumbsDirective.js"></script>
 
 </body>
 </html>
