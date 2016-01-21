@@ -17,5 +17,6 @@ cookingApp.controller('LayoutController', ['$scope', '$resource', '$log', 'cooki
 			{
 				console.log(response);
 			});
+
 		cookingServices.getRecipeNote();
 	}]);

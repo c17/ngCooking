@@ -1,6 +1,6 @@
 cookingApp.factory('cookingServices', ['cookingResources', 
 
-	function(cookingResources){
+	function(cookingResources, $scope){
 		return{
 			getRecipeNote : function(){
 
@@ -9,24 +9,26 @@ cookingApp.factory('cookingServices', ['cookingResources',
 				cookingResources.getRecipes()
 				.$promise
 				.then(
-					function(recipes) 
-					{
-						fetched = recipes;
+					function(recipes){
 
-						for(var i = 0; i < fetched.length; i++) {
-							var recipe = fetched[i];
-							console.log(recipe.comments.title);
+						fetched = recipes;
+						for(i=0; i<fetched.length; i++){
+							var currentRecipeRaw = fetched[i];
+
+							for(j=0; j<currentRecipeRaw.comments.length; j++){
+								var currentComment = currentRecipeRaw.comments;
+
+								console.log(currentComment);
+							}
+
 						}
-					}
-					).
+					}).
 				catch(
 					function(response)
 					{
 						console.log(response);
-					});
+					})
 			}
 		}
 	}
-
-
 	]);

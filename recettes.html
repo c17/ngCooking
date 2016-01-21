@@ -149,36 +149,40 @@
 					<section class="section">
 						<h2 class="title">~ Meilleures recettes ~</h2>
 						<div class="recettes row" >
-							<recipe-thumbs-by-note></recipe-thumbs-by-note>
-					</section>
-					<section class="section">
-						<h2 class="title">~ Nouvelles recettes ~</h2>
-						<div class="recettes row">
-							<recipe-thumbs-by-date></recipe-thumbs-by-date>
-						</div>
-					</section>
+							<div class="col-xs-6 col-sm-3 recette" ng-repeat="recipe in recipesList | orderBy:'note' | limitTo:4">
+								<recipe-thumbs></recipe-thumbs>
+							</div>
+						</section>
+						<section class="section">
+							<h2 class="title">~ Nouvelles recettes ~</h2>
+							<div class="recettes row">
+							<div class="col-xs-6 col-sm-3 recette" ng-repeat="recipe in recipesList | orderBy:'-creationDate' | limitTo:4">
+									<recipe-thumbs></recipe-thumbs>
+								</div>
+							</div>
+						</section>
 
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</main>
-<footer id="footer">
-	<div class="container">
-		<div class="row cuisto-img-wrap">
-			<div class="col-xs-3">
-				<div class="cuisto-img"></div>
+	</main>
+	<footer id="footer">
+		<div class="container">
+			<div class="row cuisto-img-wrap">
+				<div class="col-xs-3">
+					<div class="cuisto-img"></div>
+				</div>
+				<div class="col-xs-9">
+					<p class="ts">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse optio repellat temporibus molestiae ducimus quibusdam eum maiores voluptatum sapiente reprehenderit. Est, modi, tenetur. Tempora perferendis eveniet unde numquam cupiditate nam?</p>
+					<p class="ts">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore sed fugit necessitatibus nihil omnis officiis unde consectetur autem non doloribus! Iure ipsum odit veniam ipsam corporis ab, totam, eos sit?</p>
+					<div class="hr"></div>
+					<p class="copyright">copyright @ngcooking 2015-2016</p>
+				</div>
 			</div>
-			<div class="col-xs-9">
-				<p class="ts">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse optio repellat temporibus molestiae ducimus quibusdam eum maiores voluptatum sapiente reprehenderit. Est, modi, tenetur. Tempora perferendis eveniet unde numquam cupiditate nam?</p>
-				<p class="ts">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore sed fugit necessitatibus nihil omnis officiis unde consectetur autem non doloribus! Iure ipsum odit veniam ipsam corporis ab, totam, eos sit?</p>
-				<div class="hr"></div>
-				<p class="copyright">copyright @ngcooking 2015-2016</p>
-			</div>
-		</div>
 
-	</div>
-</footer>
+		</div>
+	</footer>
 </div>
 
 <div class="popin" data-popin="connect_popin">
@@ -217,18 +221,19 @@
 
 
 <script type="text/javascript" src="js/angular-1.5.0-rc.0/angular.js"></script>
-	<script type="text/javascript" src="js/angular-1.5.0-rc.0/angular-route.js"></script>
-	<script type="text/javascript" src="js/angular-1.5.0-rc.0/angular-resource.js"></script>
-	<script type="text/javascript" src="js/angular-1.5.0-rc.0/angular-cookies.js"></script>
-	<script type="text/javascript" src="js/angular-1.5.0-rc.0/angular-mocks.js"></script>
-	<script type="text/javascript" src="node_modules/requirejs/require.js"></script>
-	<script type="text/javascript" src="app/app.module.js"></script>
-	<script type="text/javascript" src="app/app.routes.js"></script>
-	<script type="text/javascript" src="app/cookingResources.js"></script>
-	<script type="text/javascript" src="app/auth/authController.js"></script>
-	<script type="text/javascript" src="app/layout/layoutController.js"></script>
-	<script type="text/javascript" src="/app/layout/directives/header/headerDirective.js"></script>
-	<script type="text/javascript" src="/app/layout/directives/recipes/recipeThumbsDirective.js"></script>
+<script type="text/javascript" src="js/angular-1.5.0-rc.0/angular-route.js"></script>
+<script type="text/javascript" src="js/angular-1.5.0-rc.0/angular-resource.js"></script>
+<script type="text/javascript" src="js/angular-1.5.0-rc.0/angular-cookies.js"></script>
+<script type="text/javascript" src="js/angular-1.5.0-rc.0/angular-mocks.js"></script>
+<script type="text/javascript" src="node_modules/requirejs/require.js"></script>
+<script type="text/javascript" src="app/app.module.js"></script>
+<script type="text/javascript" src="app/app.routes.js"></script>
+<script type="text/javascript" src="app/cookingResources.js"></script>
+<script type="text/javascript" src="app/cookingServices.js"></script>
+<script type="text/javascript" src="app/auth/authController.js"></script>
+<script type="text/javascript" src="app/layout/layoutController.js"></script>
+<script type="text/javascript" src="/app/layout/directives/header/headerDirective.js"></script>
+<script type="text/javascript" src="/app/layout/directives/recipes/recipeThumbsDirective.js"></script>
 
 
 </div>
