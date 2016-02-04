@@ -9,6 +9,43 @@ app.use(bodyParser.urlencoded({extended : true}));
 app.use(bodyParser.json());
 app.use(express.static(rootPath));
 
+
+app.get('/', function (req, res) {
+  res.sendFile(rootPath+'\home.html');
+});
+
+app.get('/recettes', function (req, res) {
+  res.sendFile(rootPath+'\home.html');
+});
+
+app.get('/ingredients', function (req, res) {
+  res.sendFile(rootPath+'\home.html');
+});
+
+app.get('/communaute', function (req, res) {
+  res.sendFile(rootPath+'\home.html');
+});
+
+app.get('/communaute_details', function (req, res) {
+  res.sendFile(rootPath+'\home.html');
+});
+
+app.get('/recettes_details', function (req, res) {
+  res.sendFile(rootPath+'\home.html');
+});
+
+app.get('/recettes_new', function (req, res) {
+  res.sendFile(rootPath+'\home.html');
+});
+
+app.get('/ingredients', function (req, res) {
+  res.sendFile(rootPath+'\home.html');
+});
+
+app.get('/home', function (req, res) {
+  res.sendFile(rootPath+'\home.html');
+});
+
 app.get('/json/:filename', resources.get);
 app.post('/json/:filename', resources.save);
 

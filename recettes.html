@@ -63,178 +63,83 @@
 								</div>
 							</nav>
 						</div>
-						<div class="col-xs-9">
-							<div class="content" id="content_recettes">
-								<h1 class="page-title">Les recettes</h1>
-
-								<section class="section">
-									<h2 class="title">~ Trouver une recette ~</h2>
-									<div class="panel">
-										<div class="row imgback">
-											<div class="col-xs-3"></div>
-											<div class="col-xs-12 col-sm-9 fp">
-												<div class="filters">
-													<form action="">
-														<div class="filter">
-															<p><label for="">Nom de la recette</label></p>
-															<p><input type="text" placeholder="ex: Tajine de poulet"></p>
-														</div>
-														<div class="filter">
-															<p><label for="">Ingrédient(s) utlisé(s) pour la recette</label></p>
-															<p><input type="text" placeholder="ex: poulet;oeuf;farine"></p>
-														</div>
-														<div class="filter">
-															<p><label for="">Valeur calorique de la recette <span class="fwn">(kcal/100g)</span></label></p>
-															<p>
-																<span class="span-label">entre :</span>
-																<input type="number" class="mr0" placeholder="ex: 450">
-																<span class="span-label">et</span>
-																<input type="number" placeholder="ex: 750">
-															</p>
-														</div>
-													</form>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="sort">
-										<p>
-											<span class="span-label">Trier par :</span>
-											<select name="" id="">
-												<option value="az">Ordre alphabétique (A->Z)</option>
-												<option value="za">Ordre alphabétique (Z->A)</option>
-												<option value="new">Les plus récentes d'abord</option>
-												<option value="old">Les plus anciennes d'abord</option>
-												<option value="best">Les mieux notées d'abord</option>
-												<option value="worst">Les moins bien notées d'abord</option>
-												<option value="cal">Du moins calorique au plus calorique</option>
-												<option value="cal_desc">Du plus calorique au moins calorique</option>
-											</select>
-										</p>
-									</div>
-									<div class="result">
-										<div class="recettes row">
-
-											<p class=" col-xs-12 blank">Aucune recette ne correspond à votre recherche</p>
-
-									<!--ng-view des recettes filtered by whatever the fk you chose
-									<div class="col-xs-6 col-sm-4 col-md-3 recette">
-										<a href="recettes_details.html">
-											<img src="img/recettes/tajine-de-poulet.jpg" alt="Le tajine de ta maman">
-											<div class="top" title="note : 3,2/5">
-												<span class="note">
-													<span class="glyphicon glyphicon-heart"></span>
-													<span class="glyphicon glyphicon-heart"></span>
-													<span class="glyphicon glyphicon-heart"></span>
-												</span>
-											</div>
-											<div class="bot">
-												<p class="name">Tajine de poulet</p>
-											</div>
-										</a>
-									</div>
-								-->
-
-							</div>
-						</div>
-
-							<!--
-							<div class="row showmore">
-								<div class="col-xs-12">
-									<button type="button" class="btn btn_color1"><span class="glyphicon glyphicon-chevron-down"></span>Afficher d'avantage</button>
-								</div>
-							</div>
-						-->
-					</section>
-					<section class="section">
-						<h2 class="title">~ Meilleures recettes ~</h2>
-						<div class="recettes row" >
-							<div class="col-xs-6 col-sm-3 recette" ng-repeat="recipe in recipesList | orderBy:'note' | limitTo:4">
-								<recipe-thumbs></recipe-thumbs>
-							</div>
-						</section>
-						<section class="section">
-							<h2 class="title">~ Nouvelles recettes ~</h2>
-							<div class="recettes row">
-							<div class="col-xs-6 col-sm-3 recette" ng-repeat="recipe in recipesList | orderBy:'-creationDate' | limitTo:4">
-									<recipe-thumbs></recipe-thumbs>
-								</div>
-							</div>
-						</section>
-
+					</div>
+					<!-- /app/layout/templates/recettes.html -->
+					<ng-view></ng-view>
+				</div>
+			</div>
+		</main>
+		<footer id="footer">
+			<div class="container">
+				<div class="row cuisto-img-wrap">
+					<div class="col-xs-3">
+						<div class="cuisto-img"></div>
+					</div>
+					<div class="col-xs-9">
+						<p class="ts">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse optio repellat temporibus molestiae ducimus quibusdam eum maiores voluptatum sapiente reprehenderit. Est, modi, tenetur. Tempora perferendis eveniet unde numquam cupiditate nam?</p>
+						<p class="ts">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore sed fugit necessitatibus nihil omnis officiis unde consectetur autem non doloribus! Iure ipsum odit veniam ipsam corporis ab, totam, eos sit?</p>
+						<div class="hr"></div>
+						<p class="copyright">copyright @ngcooking 2015-2016</p>
 					</div>
 				</div>
-			</div>
-		</div>
-	</main>
-	<footer id="footer">
-		<div class="container">
-			<div class="row cuisto-img-wrap">
-				<div class="col-xs-3">
-					<div class="cuisto-img"></div>
-				</div>
-				<div class="col-xs-9">
-					<p class="ts">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse optio repellat temporibus molestiae ducimus quibusdam eum maiores voluptatum sapiente reprehenderit. Est, modi, tenetur. Tempora perferendis eveniet unde numquam cupiditate nam?</p>
-					<p class="ts">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore sed fugit necessitatibus nihil omnis officiis unde consectetur autem non doloribus! Iure ipsum odit veniam ipsam corporis ab, totam, eos sit?</p>
-					<div class="hr"></div>
-					<p class="copyright">copyright @ngcooking 2015-2016</p>
-				</div>
-			</div>
 
-		</div>
-	</footer>
-</div>
-
-<div class="popin" data-popin="connect_popin">
-	<div class="popin-content">
-		<div class="popin-scroll">
-			<p class="popin-title">Connexion</p>
-			<form action="" novalidate>
-				<p>
-					<label for="co_user" class="fwb">Identifiant (email)</label>
-					<input id="co_user" class="wide" type="text" />
-				</p>
-				<p>
-					<label for="co_pwd" class="fwb">Mot de passe</label>
-					<input id="co_pwd" class="wide" type="text" />
-				</p>
-				<p class="ac nm mt2">
-					<button type="button" class="btn btn_big btn_color1"><span class="glyphicon glyphicon-ok"></span><span class="fwb uc">Valider</span></button>
-				</p>
-			</form>
-		</div>
-		<button class="close popin-close"><span class="glyphicon glyphicon-remove"></span></button>
+			</div>
+		</footer>
 	</div>
-	<div class="popin-backlayer"></div>
-</div>
-<script type="text/javascript">
-	$(function(){
-		$("[data-popin-open]").click(function(){
-			var popin = $(this).attr("data-popin-open");
-			$("[data-popin='"+popin+"']").addClass("displayed");
+
+	<div class="popin" data-popin="connect_popin">
+		<div class="popin-content">
+			<div class="popin-scroll">
+				<p class="popin-title">Connexion</p>
+				<form action="" novalidate>
+					<p>
+						<label for="co_user" class="fwb">Identifiant (email)</label>
+						<input id="co_user" class="wide" type="text" />
+					</p>
+					<p>
+						<label for="co_pwd" class="fwb">Mot de passe</label>
+						<input id="co_pwd" class="wide" type="text" />
+					</p>
+					<p class="ac nm mt2">
+						<button type="button" class="btn btn_big btn_color1"><span class="glyphicon glyphicon-ok"></span><span class="fwb uc">Valider</span></button>
+					</p>
+				</form>
+			</div>
+			<button class="close popin-close"><span class="glyphicon glyphicon-remove"></span></button>
+		</div>
+		<div class="popin-backlayer"></div>
+	</div>
+	<script type="text/javascript">
+		$(function(){
+			$("[data-popin-open]").click(function(){
+				var popin = $(this).attr("data-popin-open");
+				$("[data-popin='"+popin+"']").addClass("displayed");
+			});
+			$("[data-popin] .popin-backlayer, [data-popin] .popin-close").click(function(){
+				$(this).parents(".popin").removeClass("displayed");
+			});
 		});
-		$("[data-popin] .popin-backlayer, [data-popin] .popin-close").click(function(){
-			$(this).parents(".popin").removeClass("displayed");
-		});
-	});
-</script>
+	</script>
 
 
-<script type="text/javascript" src="js/angular-1.5.0-rc.0/angular.js"></script>
-<script type="text/javascript" src="js/angular-1.5.0-rc.0/angular-route.js"></script>
-<script type="text/javascript" src="js/angular-1.5.0-rc.0/angular-resource.js"></script>
-<script type="text/javascript" src="js/angular-1.5.0-rc.0/angular-cookies.js"></script>
-<script type="text/javascript" src="js/angular-1.5.0-rc.0/angular-mocks.js"></script>
-<script type="text/javascript" src="node_modules/requirejs/require.js"></script>
-<script type="text/javascript" src="app/app.module.js"></script>
-<script type="text/javascript" src="app/app.routes.js"></script>
-<script type="text/javascript" src="app/cookingResources.js"></script>
-<script type="text/javascript" src="app/cookingServices.js"></script>
-<script type="text/javascript" src="app/auth/authController.js"></script>
-<script type="text/javascript" src="app/layout/layoutController.js"></script>
-<script type="text/javascript" src="/app/layout/directives/header/headerDirective.js"></script>
-<script type="text/javascript" src="/app/layout/directives/recipes/recipeThumbsDirective.js"></script>
-
+	<script type="text/javascript" src="js/angular-1.5.0-rc.0/angular.js"></script>
+	<script type="text/javascript" src="js/angular-1.5.0-rc.0/angular-route.js"></script>
+	<script type="text/javascript" src="js/angular-1.5.0-rc.0/angular-resource.js"></script>
+	<script type="text/javascript" src="js/angular-1.5.0-rc.0/angular-cookies.js"></script>
+	<script type="text/javascript" src="js/angular-1.5.0-rc.0/angular-mocks.js"></script>
+	<script type="text/javascript" src="node_modules/requirejs/require.js"></script>
+	<script type="text/javascript" src="app/app.module.js"></script>
+	<script type="text/javascript" src="app/app.routes.js"></script>
+	<script type="text/javascript" src="app/cookingResources.js"></script>
+	<script type="text/javascript" src="app/cookingServices.js"></script>
+	<script type="text/javascript" src="app/auth/authController.js"></script>
+	<script type="text/javascript" src="app/layout/layoutController.js"></script>
+	<script type="text/javascript" src="/app/layout/directives/header/headerDirective.js"></script>
+	<script type="text/javascript" src="/app/layout/directives/community/userDirectives.js"></script>
+	<script type="text/javascript" src="/app/layout/directives/ingredients/ingredientsDirective.js"></script>
+	<script type="text/javascript" src="/app/layout/directives/menu/menuDirective.js"></script>
+	<script type="text/javascript" src="/app/layout/directives/recipes/recipeThumbsDirective.js"></script>
+	<script type="text/javascript" src="/app/layout/directives/UI/recipeNoteDirective.js"></script>
 
 </div>
 </body>

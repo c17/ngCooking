@@ -8,7 +8,6 @@
     font-family: 'thirsty_roughregular_one';
     src: url('../fonts/thirstyroughregone-webfont.eot');
     src: url('../fonts/thirstyroughregone-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/thirstyroughregone-webfont.woff2') format('woff2'),
          url('../fonts/thirstyroughregone-webfont.woff') format('woff'),
          url('../fonts/thirstyroughregone-webfont.ttf') format('truetype'),
          url('../fonts/thirstyroughregone-webfont.svg#thirsty_roughregular_one') format('svg');
