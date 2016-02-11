@@ -1,4 +1,4 @@
-[  
+[
    {  
       "id":"tarte-citron-meringue",
       "name":"Tarte citron meringué",
@@ -50,7 +50,13 @@
             "userId":6,
             "title":"On y est presque",
             "comment":"commentaire 1",
-            "mark":3
+            "mark":25
+         },
+         { 
+            "userId":6,
+            "title":"Ca y est on y est arrivé",
+            "comment":"ouep",
+            "mark":7.82
          }
       ]
    },

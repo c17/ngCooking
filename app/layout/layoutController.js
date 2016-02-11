@@ -122,24 +122,23 @@ cookingApp.controller('LayoutController', ['$scope', '$resource', '$log', 'cooki
 
 		$scope.saveUser = function(user){
 
-			console.log("hello from saveUser");
-
 			console.log("saveUser : user.password = " + user.password);
 
 			var user = createUserTemplate(user);
 
+//			user = JSON.stringify(user);
+
 			cookingResources.saveUser(user)
 			.$promise
 			.then(
-				function(user) 
-				{	
-					console.log("user saved from layoutCtrl.addUser();");
+				function(user){
+					console.log("user saved from layoutCtrl.saveUser()");
 				}).
 			catch(
-				function(response)
-				{
+				function(response){
 					console.log(response);
-				});
+				}
+				);
 
 		};
 
