@@ -1,4 +1,3 @@
-[
 	{
 		"id": "meat",
 		"nameToDisplay": "Viandes"
@@ -43,4 +42,3 @@
 		"id": "other",
 		"nameToDisplay": "Autre"
 	}
-]

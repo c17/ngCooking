@@ -1,0 +1,10 @@
+// var mongoose = require('mongoose');
+// var users = require('../routes/userRoutes');
+
+//app.use('/api', users);
+
+
+// var dbName = 'cookingDB';
+// var connectionString ='mongodb://localhost:8051/'+dbName;
+
+// //mongoose.connect(connectionString);

@@ -8,7 +8,7 @@ cookingApp.controller('LayoutController', ['$scope', '$resource', '$log', 'cooki
 		$scope.commentList = {};
 		var lastUserId = 0;
 
-		$scope.random = function() {
+		$scope.randomNumber = function() {
 			return 0.5 - Math.random();
 		}
 
@@ -74,7 +74,8 @@ cookingApp.controller('LayoutController', ['$scope', '$resource', '$log', 'cooki
 			.then(
 				function(userList) 
 				{
-					fetchedUserList= userList;
+					console.log(userList);
+					//fetchedUserList= userList;
 				}).
 			catch(
 				function(response)
@@ -82,7 +83,7 @@ cookingApp.controller('LayoutController', ['$scope', '$resource', '$log', 'cooki
 					console.log(response);
 				});
 
-			return fetchedUserList;
+			//return fetchedUserList;
 		};
 
 
@@ -92,6 +93,8 @@ cookingApp.controller('LayoutController', ['$scope', '$resource', '$log', 'cooki
 
 			angular.forEach(effectiveUserList, function(value, key)
 			{
+
+				console.log(effectiveUserList);
 				if(highestUserId < user.id){
 					highestUserId = user.id;
 				}
@@ -100,7 +103,7 @@ cookingApp.controller('LayoutController', ['$scope', '$resource', '$log', 'cooki
 		};
 
 		createUserTemplate = function(user){
-
+			var indent = {};
 			var _user = {};
 
 			_user.password = "";
@@ -113,6 +116,7 @@ cookingApp.controller('LayoutController', ['$scope', '$resource', '$log', 'cooki
 			_user.level = "";
 			_user.picture = "";
 			_user.bio = "";
+
 
 			var finalUser = $.extend({},_user,user);
 			console.log(finalUser);
