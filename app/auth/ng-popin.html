@@ -1,0 +1,37 @@
+<div class="popin" data-popin="connect_popin">
+	<div class="popin-content">
+		<div class="popin-scroll">
+			<p class="popin-title">Connexion</p>
+			<form action="" novalidate>
+				<p>
+					<label for="co_user" class="fwb">Identifiant (email)</label>
+					<input id="co_user" class="wide" type="text" />
+				</p>
+				<p>
+					<label for="co_pwd" class="fwb">Mot de passe</label>
+					<input id="co_pwd" class="wide" type="text" />
+				</p>
+				<p class="ac nm mt2">
+					<button type="button" class="btn btn_big btn_color1"><span class="glyphicon glyphicon-ok"></span><span class="fwb uc">Valider</span></button>
+				</p>
+			</form>
+
+			<p class="popin-title">Inscription</p>
+			<form action="" novalidate>
+				<p>
+					<label for="co_user" class="fwb">Identifiant (email)</label>
+					<input id="co_user" class="wide" type="text" ng-model="user.email" />
+				</p>
+				<p>
+					<label for="co_pwd" class="fwb">Mot de passe</label>
+					<input id="co_pwd" class="wide" type="text" ng-model="user.password"/>
+				</p>
+				<p class="ac nm mt2">
+					<button type="button" class="btn btn_big btn_color1" ng-click="createUser(user)"><span class="glyphicon glyphicon-ok"></span><span class="fwb uc">Valider</span></button>
+				</p>
+			</form>
+		</div>
+		<button class="close popin-close"><span class="glyphicon glyphicon-remove"></span></button>
+	</div>
+	<div class="popin-backlayer"></div>
+</div>
