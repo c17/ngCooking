@@ -1997,6 +1997,23 @@ body {
         font-size: 1.6em;
         margin-bottom: 1em;
     }
+    
+    .ingredients .ingredient .top {
+        padding-left: 70px;
+        padding-right: 100px;
+    }
+    .ingredients .ingredient .img {
+        width: 50px;
+        left: 10px;
+        top: 10px;
+    }
+    .ingredients .ingredient .bot {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .ingredients .ingredient .calories-wrap {
+        right: 15px;
+    }
 }
  /* 0 -> 768  */
 @media (max-width: 768px) {
