@@ -692,18 +692,46 @@
 
 <div id="mobile-back-layer"></div>
 
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/jquery.main.js"></script>
+
 <script type="text/javascript">
+
+    $.fn.tooltipDesc = function(opt){ // *** IN TEST ***
+        var options = { // default values
+            test: 17
+        };
+        if(opt && typeof opt == "object"){
+            $.extend(options, opt); // merge options (options properties will be overwritten by opt ones)
+        }
+
+        var popin = $("#popin-desc");
+
+        if( !popin.length && $(this).length ){
+        	popin = $("<div id='popin-desc'></div>");
+        	$(popin).appendTo("body");
+        }
+
+        return this.each(function(i, elem){
+                $(this).hover(
+                    function(event){
+                    	var content = $(this).attr("data-desc");
+                        $(popin).html(content);
+                        $(popin).stop().fadeIn(200);
+                    },
+                    function(){
+                    	$(popin).stop().fadeOut(200);
+                    }
+                );
+                $(this).on("mousemove", function(event){
+                	$(popin).css("left", event.clientX + 20 +"px");
+                	$(popin).css("top", event.clientY +"px");
+                });
+        });
+    };
+
 	$(function(){
-		$("[data-popin-open]").click(function(){
-			var popin = $(this).attr("data-popin-open");
-			$("[data-popin='"+popin+"']").addClass("displayed");
-		});
-		$("[data-popin] .popin-backlayer, [data-popin] .popin-close").click(function(){
-			$(this).parents(".popin").removeClass("displayed");
-		});
-		$("#mobile-menu-btn, #mobile-close-btn, #mobile-back-layer").click(function(){
-			$("body").toggleClass("mobile-menu-open");
-		});
+		$(".recette a").tooltipDesc({test:214});
 	});
 </script>
 

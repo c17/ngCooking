@@ -1983,6 +1983,23 @@ body {
 
 
 
+#popin-desc {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 8;
+    border-radius: 8px;
+    padding: 10px 10px 14px 10px;
+    background-color: #ffffff;
+    border: 2px solid #ED5137;
+
+    max-width: 200px;
+    max-height: 160px;
+    overflow-y: auto;
+
+    -webkit-box-shadow: 1px 2px 5px 0 rgba(0,0,0,0.3);
+    box-shadow: 1px 2px 5px 0 rgba(0,0,0,0.3);
+}
 
 
 
