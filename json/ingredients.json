@@ -268,7 +268,7 @@
 		"name": "Poire",
 		"isAvailable": true,
 		"picture": "poire.jpg",
-		"category": "vegatble",
+		"category": "fruit",
 		"calories": 65
 	},
 	{
@@ -316,7 +316,7 @@
 		"name": "Toast",
 		"isAvailable": true,
 		"picture": "toast.jpg",
-		"category": "autre",
+		"category": "other",
 		"calories": 160
 	},
 	{
