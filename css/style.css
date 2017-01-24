@@ -4,6 +4,19 @@
 
 /* ************************************ FONTS ******* */
 
+/*
+@font-face {
+    font-family: 'thirsty_roughregular_one';
+    src: url('../fonts/thirstyroughregone-webfont.eot');
+    src: url('../fonts/thirstyroughregone-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/thirstyroughregone-webfont.woff2') format('woff2'),
+         url('../fonts/thirstyroughregone-webfont.woff') format('woff'),
+         url('../fonts/thirstyroughregone-webfont.ttf') format('truetype'),
+         url('../fonts/thirstyroughregone-webfont.svg#thirsty_roughregular_one') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
 @font-face {
     font-family: 'thirsty_roughregular_one';
     src: url('../fonts/thirstyroughregone-webfont.eot');
@@ -36,7 +49,7 @@ taupe vignettes recettes : #e1d5b8
 
 
 
-/* ************************************ #DEFINE FONT-SIZE ******* */
+/* ************************************ #MAIN FONT SETTING ******* */
 
 .serif {
     font-family: "thirsty_roughregular_one", Georgia, "Times New Roman", Times, serif;
@@ -185,7 +198,7 @@ a {
 
 .ellipsis { overflow:hidden; text-overflow: ellipsis; white-space:nowrap; /* width: 100%; */ }
 
-.inline-block, .iblock {
+.inline-block, .iblock, .dib {
     display: inline-block;
     *display: inline;
     *zoom: 1;
@@ -1255,9 +1268,10 @@ body {
     font-size: 0.8em;
 }
 .recettes .recette a .top .note .glyphicon {
-    // color: #CCB88A;
+    /* color: #CCB88A; */
     color: #ffffff;
-    margin-right: -1px;
+    /* margin-right: -1px; */
+    margin-right: 0.1em;
     line-height: 1;
 
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
@@ -2034,7 +2048,7 @@ body {
  /* 0 -> 768  */
 @media (max-width: 768px) {
     #header {
-        // z-index: 11;
+        /* z-index: 11; */
     }
     #header #mobile-menu-btn {
         display: block;
@@ -2054,7 +2068,7 @@ body {
         display: inline-block;
         zoom: 1;
         margin: 10px 0;
-        // width: 33%;
+        /* width: 33%; */
         width: 160px;
     }
 
@@ -2167,7 +2181,7 @@ body {
 @media (min-width: 768px) and (max-width: 1199px) {
 }
 /* 992 -> infinite */
-@media (min-width: 992pxpx) {
+@media (min-width: 992px) {
 }
 /* 992 -> 1199 */
 @media (min-width: 992px) and (max-width: 1199px) {
