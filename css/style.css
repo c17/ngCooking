@@ -1271,7 +1271,7 @@ body {
     /* color: #CCB88A; */
     color: #ffffff;
     /* margin-right: -1px; */
-    margin-right: 0.1em;
+    margin-right: 0.05em;
     line-height: 1;
 
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
@@ -1768,7 +1768,7 @@ body {
 }
 #content_recettes_details .rec_note .stars .star {
     color: #ed5137;
-    margin-right: -1px;
+    margin-right: 0.05em;
 }
 #content_recettes_details .rec_note .notes {
     font-size: 0.9em;
