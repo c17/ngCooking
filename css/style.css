@@ -1775,6 +1775,14 @@ body {
 }
 
 
+#content_recettes_details .rec_cat {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#content_recettes_details .rec_cat .val {
+    color: #861B2A;
+    font-weight: 800;
+}
 
 #content_recettes_details .rec_cal {
     text-transform: uppercase;

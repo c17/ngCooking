@@ -5,6 +5,7 @@
 		"creatorId": 1,
 		"creationDate": 1484660184632,
 		"isAvailable": true,
+		"categorie": "dessert",
 		"picture": "tarte-citron-meringue.jpg",
 		"calories": 460,
 		"ingredients": [
@@ -35,6 +36,7 @@
 		"creatorId": 1,
 		"creationDate": 1484660884694,
 		"isAvailable": true,
+		"categorie": "plat-principal",
 		"picture": "tajine-de-poulet.jpg",
 		"calories": 180,
 		"ingredients": [
@@ -60,6 +62,7 @@
 		"creatorId": 2,
 		"creationDate": 1484210826600,
 		"isAvailable": true,
+		"categorie": "entree",
 		"picture": "cake-jambon-olive.jpg",
 		"calories": 330,
 		"ingredients": [
@@ -79,6 +82,7 @@
 		"creatorId": 3,
 		"creationDate": 1484650814894,
 		"isAvailable": true,
+		"categorie": "plat-principal",
 		"picture": "saumon-echalotte.jpg",
 		"calories": 320,
 		"ingredients": [
@@ -94,6 +98,7 @@
 		"creatorId": 1,
 		"creationDate": 1483660114577,
 		"isAvailable": true,
+		"categorie": "dessert",
 		"picture": "salade-de-fruit-granite.jpg",
 		"calories": 400,
 		"ingredients": [
