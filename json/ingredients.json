@@ -5,7 +5,8 @@
 		"isAvailable": true,
 		"picture": "pomme-de-terre.jpg",
 		"category": "vegetable",
-		"calories": 140
+		"calories": 140,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "boeuf",
@@ -13,7 +14,8 @@
 		"isAvailable": true,
 		"picture": "boeuf.jpg",
 		"category": "meat",
-		"calories": 200
+		"calories": 200,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "poulet",
@@ -21,7 +23,8 @@
 		"isAvailable": true,
 		"picture": "poulet.jpg",
 		"category": "meat",
-		"calories": 180
+		"calories": 180,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "citron",
@@ -29,7 +32,8 @@
 		"isAvailable": true,
 		"picture": "citron.jpg",
 		"category": "fruit",
-		"calories": 110
+		"calories": 110,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "sucre",
@@ -37,7 +41,8 @@
 		"isAvailable": true,
 		"picture": "sucre.jpg",
 		"category": "other",
-		"calories": 600
+		"calories": 600,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "farine",
@@ -45,7 +50,8 @@
 		"isAvailable": true,
 		"picture": "farine.jpg",
 		"category": "other",
-		"calories": 310
+		"calories": 310,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "tomate",
@@ -53,7 +59,8 @@
 		"isAvailable": true,
 		"picture": "tomate.jpg",
 		"category": "fruit",
-		"calories": 80
+		"calories": 80,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "carotte",
@@ -61,7 +68,8 @@
 		"isAvailable": true,
 		"picture": "carotte.jpg",
 		"category": "vegetable",
-		"calories": 65
+		"calories": 65,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "ananas",
@@ -69,7 +77,8 @@
 		"isAvailable": true,
 		"picture": "ananas.jpg",
 		"category": "fruit",
-		"calories": 95
+		"calories": 95,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "aubergine",
@@ -77,7 +86,8 @@
 		"isAvailable": true,
 		"picture": "aubergine.jpg",
 		"category": "vegetable",
-		"calories": 50
+		"calories": 50,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "banane",
@@ -85,7 +95,8 @@
 		"isAvailable": true,
 		"picture": "banane.jpg",
 		"category": "fruit",
-		"calories": 210
+		"calories": 210,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "biere",
@@ -93,7 +104,8 @@
 		"isAvailable": true,
 		"picture": "biere.jpg",
 		"category": "alcohol",
-		"calories": 140
+		"calories": 140,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "brocolis",
@@ -101,7 +113,8 @@
 		"isAvailable": true,
 		"picture": "brocolis.jpg",
 		"category": "vegetable",
-		"calories": 80
+		"calories": 80,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "citron-vert",
@@ -109,7 +122,8 @@
 		"isAvailable": true,
 		"picture": "citron-vert.jpg",
 		"category": "fruit",
-		"calories": 80
+		"calories": 80,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "colin",
@@ -117,7 +131,8 @@
 		"isAvailable": true,
 		"picture": "colin.jpg",
 		"category": "fish",
-		"calories": 80
+		"calories": 80,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "creme",
@@ -125,7 +140,8 @@
 		"isAvailable": true,
 		"picture": "creme.jpg",
 		"category": "dairy-product",
-		"calories": 80
+		"calories": 80,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "crevettes",
@@ -133,7 +149,8 @@
 		"isAvailable": true,
 		"picture": "crevettes.jpg",
 		"category": "seafood",
-		"calories": 100
+		"calories": 100,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "echalotte",
@@ -141,7 +158,8 @@
 		"isAvailable": true,
 		"picture": "echalotte.jpg",
 		"category": "vegetable",
-		"calories": 30
+		"calories": 30,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "fraise",
@@ -149,7 +167,8 @@
 		"isAvailable": true,
 		"picture": "fraise.jpg",
 		"category": "fruit",
-		"calories": 130
+		"calories": 130,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "glace",
@@ -157,7 +176,8 @@
 		"isAvailable": true,
 		"picture": "glace.jpg",
 		"category": "other",
-		"calories": 0
+		"calories": 0,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "gruyere",
@@ -165,7 +185,8 @@
 		"isAvailable": true,
 		"picture": "gruyere.jpg",
 		"category": "cheese",
-		"calories": 430
+		"calories": 430,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "huile-olive",
@@ -173,15 +194,17 @@
 		"isAvailable": true,
 		"picture": "huile-olive.jpg",
 		"category": "other",
-		"calories": 850
+		"calories": 850,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
-		"id": "huile",
-		"name": "huile-tournesol",
+		"id": "huile-tournesol",
+		"name": "Huile de tournesol",
 		"isAvailable": true,
 		"picture": "huile-tournesol.jpg",
 		"category": "other",
-		"calories": 900
+		"calories": 900,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "jambon",
@@ -189,7 +212,8 @@
 		"isAvailable": true,
 		"picture": "jambon.jpg",
 		"category": "meat",
-		"calories": 270
+		"calories": 270,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "kiwi",
@@ -197,7 +221,8 @@
 		"isAvailable": true,
 		"picture": "kiwi.jpg",
 		"category": "fruit",
-		"calories": 145
+		"calories": 145,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "lait",
@@ -205,7 +230,8 @@
 		"isAvailable": true,
 		"picture": "lait.jpg",
 		"category": "dairy-product",
-		"calories": 500
+		"calories": 500,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "mais",
@@ -213,7 +239,8 @@
 		"isAvailable": true,
 		"picture": "mais.jpg",
 		"category": "cereal",
-		"calories": 160
+		"calories": 160,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "noix-de-coco",
@@ -221,7 +248,8 @@
 		"isAvailable": true,
 		"picture": "noix-de-coco.jpg",
 		"category": "fruit",
-		"calories": 100
+		"calories": 100,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "oeuf",
@@ -229,7 +257,8 @@
 		"isAvailable": true,
 		"picture": "oeuf.jpg",
 		"category": "other",
-		"calories": 450
+		"calories": 450,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "olives",
@@ -237,7 +266,8 @@
 		"isAvailable": true,
 		"picture": "olives.jpg",
 		"category": "fruit",
-		"calories": 490
+		"calories": 490,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "orange",
@@ -245,7 +275,8 @@
 		"isAvailable": true,
 		"picture": "orange.jpg",
 		"category": "fruit",
-		"calories": 105
+		"calories": 105,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "pamplemousse",
@@ -253,7 +284,8 @@
 		"isAvailable": true,
 		"picture": "pamplemousse.jpg",
 		"category": "fruit",
-		"calories": 100
+		"calories": 100,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "pasteque",
@@ -261,7 +293,8 @@
 		"isAvailable": true,
 		"picture": "pasteque.jpg",
 		"category": "fruit",
-		"calories": 40
+		"calories": 40,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "poire",
@@ -269,7 +302,8 @@
 		"isAvailable": true,
 		"picture": "poire.jpg",
 		"category": "fruit",
-		"calories": 65
+		"calories": 65,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "pomme",
@@ -277,7 +311,8 @@
 		"isAvailable": true,
 		"picture": "pomme.jpg",
 		"category": "fruit",
-		"calories": 55
+		"calories": 55,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "raisin",
@@ -285,7 +320,8 @@
 		"isAvailable": true,
 		"picture": "raisin.jpg",
 		"category": "fruit",
-		"calories": 90
+		"calories": 90,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "salade",
@@ -293,7 +329,8 @@
 		"isAvailable": true,
 		"picture": "salade.jpg",
 		"category": "vegetable",
-		"calories": 25
+		"calories": 25,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "saumon",
@@ -301,7 +338,8 @@
 		"isAvailable": true,
 		"picture": "Saumon.jpg",
 		"category": "fish",
-		"calories": 250
+		"calories": 250,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "thon",
@@ -309,7 +347,8 @@
 		"isAvailable": true,
 		"picture": "thon.jpg",
 		"category": "fish",
-		"calories": 180
+		"calories": 180,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "toast",
@@ -317,7 +356,8 @@
 		"isAvailable": true,
 		"picture": "toast.jpg",
 		"category": "other",
-		"calories": 160
+		"calories": 160,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	},
 	{
 		"id": "vin-rouge",
@@ -325,6 +365,7 @@
 		"isAvailable": true,
 		"picture": "vin-rouge.jpg",
 		"category": "alcohol",
-		"calories": 70
+		"calories": 70,
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur obcaecati ut, sit veniam molestias eius cum. Facere quibusdam laborum doloribus, incidunt omnis ipsum alias vel est molestiae."
 	}
 ]
